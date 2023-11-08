@@ -1,0 +1,30 @@
+
+Passo 1: Declaração da classe base
+
+A primeira linha do código define a classe Carro. A palavra-chave class é seguida pelo nome da classe, neste caso Carro.
+
+A classe Carro declara os atributos nome, cor, potencia e portas. Esses atributos são usados para armazenar as informações sobre um carro.
+
+O atributo nome é uma string que armazena o nome do carro.
+O atributo cor é uma string que armazena a cor do carro.
+O atributo potencia é uma string que armazena a potência do carro.
+O atributo portas é um número que armazena o número de portas do carro.
+A classe Carro também declara o método construtor __init__(). O método construtor é um método especial que é chamado quando uma nova instância da classe é criada. O método construtor da classe Carro recebe quatro parâmetros: nome, cor, potencia e portas. Esses parâmetros são usados para inicializar os atributos da instância.
+
+Passo 2: Declaração das classes derivadas
+
+As linhas seguintes declaram as classes derivadas CarroNovo e CarroUsado. As classes derivadas são classes que herdam de outra classe. No caso das classes CarroNovo e CarroUsado, elas herdam da classe Carro.
+
+A classe CarroNovo não declara nenhum atributo ou método adicional. A classe CarroUsado declara o atributo ano_fabricacao e o método construtor __init__().
+
+O método construtor __init__() da classe CarroUsado() recebe cinco parâmetros: nome, cor, potencia, portas e ano_fabricacao. Os quatro primeiros parâmetros são usados para inicializar os atributos da classe Carro. O quinto parâmetro é usado para inicializar o atributo ano_fabricacao.
+
+Passo 3: Criação das instâncias
+
+As linhas carro_novo = CarroNovo("Gol", "Azul", "1.6", 4) e carro_usado = CarroUsado("Civic", "Vermelho", "1.8", 2, 2019) criam duas instâncias das classes CarroNovo e CarroUsado, respectivamente.
+
+A variável carro_novo é usada para referenciar a instância da classe CarroNovo. A variável carro_usado é usada para referenciar a instância da classe CarroUsado.
+
+Passo 4: Impressão das informações
+
+As linhas print(carro_novo) e print(carro_usado) imprimem as informações sobre as instâncias carro_novo e carro_usado, respectivamente.
