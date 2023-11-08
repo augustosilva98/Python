@@ -1,0 +1,35 @@
+
+Passo 1: Declaração da classe
+
+A primeira linha do código define a classe Aluno. A palavra-chave class é seguida pelo nome da classe, neste caso Aluno.
+
+Passo 2: Declaração dos atributos
+
+A seguir, a classe declara os atributos nome, turma, professor e notas. Esses atributos são usados para armazenar as informações sobre um aluno.
+
+O atributo nome é uma string que armazena o nome do aluno.
+O atributo turma é uma string que armazena a turma do aluno.
+O atributo professor é uma string que armazena o nome do professor do aluno.
+O atributo notas é um dicionário que armazena as notas do aluno.
+Passo 3: Declaração do método construtor
+
+O método construtor é um método especial que é chamado quando uma nova instância da classe é criada. O método construtor da classe Aluno recebe três parâmetros: nome, turma e professor. Esses parâmetros são usados para inicializar os atributos da instância.
+
+Passo 4: Declaração dos métodos
+
+A classe Aluno declara três métodos: adicionar_nota(), calcular_status() e imprimir_informacoes().
+
+O método adicionar_nota() é usado para adicionar uma nota ao dicionário notas da instância.
+O método calcular_status() é usado para calcular o status do aluno, que pode ser "Aprovado", "Recuperação" ou "Reprovado".
+O método imprimir_informacoes() é usado para imprimir as informações sobre o aluno.
+Passo 5: Criação da instância
+
+A linha aluno1 = Aluno("João", "Turma A", "Professora Maria") cria uma nova instância da classe Aluno. A variável aluno1 é usada para referenciar a instância.
+
+Passo 6: Adição de notas
+
+As linhas aluno1.adicionar_nota("Matemática", 8), aluno1.adicionar_nota("Português", 7) e aluno1.adicionar_nota("História", 6) adicionam três notas ao dicionário notas da instância aluno1.
+
+Passo 7: Impressão das informações
+
+A linha aluno1.imprimir_informacoes() imprime as informações sobre a instância aluno1.
